@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mehedi Hasan Masum - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container header-container">
+      <img id="profile-img" alt="Profile Image" class="profile-img" />
+      <h1 id="name"></h1>
+      <p id="role"></p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container nav-container">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="about" class="fade-in-section">
+      <h2>About Me</h2>
+      <p id="about-text"></p>
+    </section>
+
+    <section id="projects" class="fade-in-section">
+      <h2>My Projects</h2>
+      <div id="projects-grid" class="projects-grid"></div>
+    </section>
+
+    <section id="contact" class="fade-in-section">
+      <h2>Contact Me</h2>
+      <p>📧 Email: <a id="email-link" href=""></a></p>
+      <p>📱 Mobile: <span id="mobile"></span></p>
+      <p>🔗 Facebook: <a id="facebook-link" href="" target="_blank">Visit Profile</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Mehedi Hasan Masum</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
